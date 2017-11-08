@@ -31,8 +31,8 @@ app.use(express.static("client/build"));
 // -------------------------------------------------
 
 // MongoDB Configuration configuration
-mongoose.connect("mongodb://admin:reactrocks@ds023593.mlab.com:23593/heroku_pg676kmk");
-// mongoose.connect("mongodb://localhost:27017/nytreact");
+//mongoose.connect("mongodb://admin:reactrocks@ds023593.mlab.com:23593/heroku_pg676kmk");
+mongoose.connect("mongodb://localhost:27017/nytreact");
 var db = mongoose.connection;
 
 db.on("error", function(err) {
