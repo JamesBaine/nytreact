@@ -2,7 +2,7 @@
 import axios from "axios";
 
 // NYT API Key (Replace with your own API Key)
-var APIKey = "9b3adf57854f4a19b7b5782cdd6e427a";
+var APIKey = "c8bf39d1d9fb49c4b86ce88ae492873e";
 
 // Helper Functions
 const helpers = {

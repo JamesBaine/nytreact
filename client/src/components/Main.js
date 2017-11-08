@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 // Including the Link component from React Router to navigate within our application without full page reloads
 // https://github.com/ReactTraining/react-router/blob/master/docs/API.md#link
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 // Create the Main component
 class Main extends Component {
